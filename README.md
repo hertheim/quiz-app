@@ -18,7 +18,7 @@ This project is a quiz app built with Next.js. It allows users to explore differ
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-project.git
+    [git clone https://github.com/your-username/your-project.git](https://github.com/hertheim/quiz-app.git)
     ```
 
 2. Navigate to the project directory:
