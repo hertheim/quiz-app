@@ -18,15 +18,20 @@ This project is a quiz app built with Next.js. It allows users to explore differ
 ## Getting started
 1. Clone the repository:
     ```bash
-    git clone https://github.com/hertheim/quiz-app.git
+    git clone https://github.com/your-username/your-project.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd quiz-app
+    cd your-project
     ```
 
-3. Install dependencies:
+3. Create a `.env.local` file in the root of your project and add your Pexels API key:
+    ```
+    PEXELS_API_KEY=your-pexels-api-key
+    ```
+
+4. Install dependencies:
     ```bash
     npm install
     # or
@@ -34,7 +39,7 @@ This project is a quiz app built with Next.js. It allows users to explore differ
     # or
     pnpm install
     ```
-4. Run the development server:
+5. Run the development server:
     ```bash
     npm run dev
     # or
