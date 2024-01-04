@@ -35,11 +35,12 @@ This project is a quiz app built with Next.js. It allows users to explore differ
     pnpm install
     ```
 4. Run the development server:
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    ```
+    
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
