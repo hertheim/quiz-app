@@ -23,7 +23,7 @@ This project is a quiz app built with Next.js. It allows users to explore differ
 
 2. Navigate to the project directory:
     ```bash
-    cd your-project
+    cd quiz-app
     ```
 
 3. Install dependencies:
