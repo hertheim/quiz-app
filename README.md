@@ -1,17 +1,3 @@
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 ## About the Project
 This project is a quiz app built with Next.js. It allows users to explore different quiz categories, start quizzes, and view their scores. The app fetches quiz questions from the Trivia API and displays images related to each category.
 
@@ -22,12 +8,12 @@ This project is a quiz app built with Next.js. It allows users to explore differ
 - Responsive design for a seamless experience on various devices.
 
 ## Tech Stack
-- **Next.js
-- **React
-- **Tailwind CSS
--  **DaisyUI
-- **Trivia API
-- **Pexels API
+- Next.js
+- React
+- Tailwind CSS
+- DaisyUI
+- Trivia API
+- Pexels API
 
 ## Installation
 1. Clone the repository:
@@ -57,3 +43,5 @@ npm run dev
 yarn dev
 # or
 pnpm dev
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
