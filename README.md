@@ -15,7 +15,7 @@ This project is a quiz app built with Next.js. It allows users to explore differ
 - Trivia API
 - Pexels API
 
-## Installation
+## Getting started
 1. Clone the repository:
     ```bash
     git clone https://github.com/hertheim/quiz-app.git
@@ -34,9 +34,7 @@ This project is a quiz app built with Next.js. It allows users to explore differ
     # or
     pnpm install
     ```
-
-## Usage
-Run the development server:
+4. Run the development server:
 ```bash
 npm run dev
 # or
