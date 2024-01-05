@@ -15,17 +15,18 @@ function formatStringWithUnderscores(inputString: string): string {
 }
 
 const CategoryCard = ({ category, categoryImage }: CategoryCardProps) => {
+  
   const selectedCategory = formatStringWithUnderscores(category);
 
   const openModal = () => {
-    const modalElement = document.getElementById("difficulty_modal");
+    const modalElement = document.getElementById(`${selectedCategory}_modal`);
     if (modalElement instanceof HTMLDialogElement) {
       modalElement.showModal();
     }
   };
 
   const closeModal = () => {
-    const modalElement = document.getElementById("difficulty_modal");
+    const modalElement = document.getElementById(`${selectedCategory}_modal`);
     if (modalElement instanceof HTMLDialogElement) {
       modalElement.close();
     }
@@ -49,7 +50,7 @@ const CategoryCard = ({ category, categoryImage }: CategoryCardProps) => {
           </button>
         </div>
       </div>
-      <dialog id="difficulty_modal" className="modal">
+      <dialog id={`${selectedCategory}_modal`} className="modal">
         <div className="modal-box">
           <h3 className="font-bold text-2xl mb-6">Select Difficulty:</h3>
           <div className="flex flex-col text-center gap-4">
