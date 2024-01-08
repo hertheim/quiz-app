@@ -102,7 +102,7 @@ function Quiz() {
                       className={
                         question.correctAnswer === answerOption
                           ? "btn my-3 text-2xl h-auto bg-success pointer-events-none"
-                          : "btn my-3 text-2xl h-auto bg-base-100 pointer-events-none"
+                          : "btn my-3 text-2xl h-auto bg-error pointer-events-none"
                       }
                       key={optionIndex}
                     >
